@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>UNIVERSITY WEBSITE</title>
+        <link rel="stylesheet" href="indexstyle.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bookstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="header">
+		<nav>
+            <a  href="index.html"><img src="logor.PNG"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                   
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="interviewtips.html">INTERVIEW TIPS</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                    <li><a href="signup.html">SIGNUP</a></li>
+                    <li class="login-btn"><a href="login.html">LOGIN</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>A STEP TOWARDS SUCCESS</h1>
+            <p>Getting job of your choice is now one of the easiest thing in the world.<br> You just need this placement hub 
+                just made for you and you are good to go.</p>
+            <a href="signup.html" class="hero-btn">Visit Us To know More</a>
+        </div>
+        </section>
+<!-------------Industries we cater--------------->
+        <section class="campus">
+            <h1>Industries we cater</h1>
+            <p>We provide various opportunities for Graduates and Post Graduates</p>
+            <div class="row">
+                <div class="campus-col">
+                    <img src="financenHR.jpg">
+                    <div class="layer">
+                        <h3>Finance, HR & Admin</h3>
+                    </div>
+                </div>
+            <div class="campus-col">
+                <img src="market.jpg">
+                <div class="layer">
+                    <h3>Marketing & Sales</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="engnerring.jpeg">
+                <div class="layer">
+                    <h3>Engineering</h3>
+                </div>
+            </div>
+        </div>
+        </section>
+ <!--------facilities-------------->
+        <section class="facilities">
+            <h1>Our Facilities</h1>
+             <p>A critical skill that is absolutely essential 
+                for success in a particular role or while performing a specific task. </p>
+            <div class="row">
+                <div class="facilities-col">
+                    <img src="job.jpg">
+                    <h3>Job Listing</h3>
+                    <p>Diverse range of job openings from various companies and organizations.
+                        Students can browse and search for job opportunities that align with their
+                        qualification and career interests.
+                    </p>
+                </div>
+                <div class="facilities-col">
+                    <img src="company.jpg">
+                    <h3>Company Information</h3>
+                    <p>Provide detailed information about recruiting company such as company profiles,
+                        job roles,and recruiting purposes. </p>
+                </div>
+                <div class="facilities-col">
+                    <img src="interview.jpg">
+                    <h3>Interview Preparation</h3>
+                    <p>Offers resources to help students prepare for interviews.Includes interview tips,
+                        sample interview questions,and guidance about how to perform well during job interviews.
+                    </p>
+                </div>
+            </div>    
+        </section>
+<!-------- Alumni Testimonials--------------->
+        <section class="testimonials">
+            <h1>What our Students Say</h1>
+            <p>Words from the Alumni members who are the backbone of the college.</p>
+            <div class="row">
+                <div class="testimonial-col">
+                    <img src="female.png">
+                    <div>
+                        <p>"The college placement cell exceeded my expectations. 
+                            Their proactive approach, personalized guidance, and commitment to student success made all the difference in securing my ideal job. 
+                            I'm immensely grateful for their invaluable support."</p>
+                            <h3>Ruhanika Pawar</h3>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                    </div>
+                </div>
+                <div class="testimonial-col">
+                    <img src="male.png">
+                    <div>
+                        <p>"The college placement cell website is a fantastic resource for students like me. It's user-friendly, well-organized, and provides up-to-date information on job opportunities, internships, and career advice. 
+                            Navigating the site has been a breeze, and it has truly streamlined the job search process for me."</p>
+                            <h3>Abhiraj Rathor</h3>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!---Call to action------->
+        <section class="cta">
+            <h1>Contact Us from anywhere.</h1>
+            <a href="contact.html" class="hero-btn">CONTACT US</a>
+        </section>
+
+        
+
+
+        <!------------Javascript for Toggle Menu------------->
+        <script>
+            var navLinks=document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+            function hideMenu(){
+                navLinks.style.right="-200px";
+            }
+        </script>
+    </body>
+</html>
